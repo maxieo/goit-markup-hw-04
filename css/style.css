@@ -132,7 +132,7 @@ img {
     width: 16px;
     height: 12px;
     fill: currentColor;
-    padding-top: 3px;
+    margin-right: 10px;
 }
 
 /* hero */
@@ -307,7 +307,7 @@ img {
     justify-content: center;
     align-items: center;
     fill: var(--icon-color);
-    margin-right: 30px;
+
 }
 .regular-clients-link:hover,
 .regular-clients-link:focus {
@@ -319,9 +319,8 @@ img {
     justify-content: center;
     align-items: center;
 }
-.clients-icon {
-    width: 41px;
-    height: 47px;
+.clients-list:not(:last-child) {
+    margin-right: 30px;
 }
 /* footer */
 .footer {
